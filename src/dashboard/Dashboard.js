@@ -36,6 +36,7 @@ export class Dashboard extends LitElement {
   getOverview() {
     const outlet = this.shadowRoot.getElementById('outlet');
     const router = new Router(outlet);
+     
     router.setRoutes([
       { path: '/', component: 'dashboard-overview' },
       { path: '/details', component: 'basic-details' },

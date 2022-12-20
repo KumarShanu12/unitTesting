@@ -24,10 +24,11 @@ export class LoanApplication extends LitElement {
     super();
     this.title = 'Hey there';
     this.counter = 5;
+     
   }
 
   __increment() {
-    this.counter += 1;
+    this.counter += 1; 
   }
 
   render() {
